@@ -1,6 +1,11 @@
+
+
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #f5f7fa;
+}
+.link {
+  text-decoration: none;
 }
 .Main-container {
   display: flex;
@@ -85,6 +90,9 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
+}
+.My-projects-link:hover {
+  color: #fb6d3a;
 }
 .My-projects-bracket {
   font-style: normal;
@@ -175,12 +183,13 @@ body {
 /* Sidebar section */
 .Sidebar-section {
   background-color: #1e2939;
-  width: 370px;
-  padding: 40px 0;
+  width: 300px;
+  padding: 40px;
 }
 .Contacts-section,
 .Tech-skills-section,
-.Soft-skills-section {
+.Soft-skills-section,
+.Languages-section {
   margin: 50px 0 0 40px;
 }
 .Sidebar-title {
@@ -205,22 +214,33 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #565e6a;
+  color: #8792a2;
 }
+.Contacts-section-link:hover{
+  color: #fff;
+}
+
 /* Tech & soft skills section */
 .Tech-skills-list,
-.Soft-skills-list {
+.Soft-skills-list,
+.Languages-list {
   padding: 0 0 0 17px;
 }
 .Tech-skills-item,
-.Soft-skills-item {
+.Soft-skills-item,
+.Languages-item {
   color: #fb6d3a;
 }
 .Tech-skills-item-text,
-.Soft-skills-item-text {
+.Soft-skills-item-text,
+.Languages-item-text {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   color: #fff;
+}
+.Foto {
+border-radius: 3%;
+
 }
