@@ -26,6 +26,10 @@ button {
 .link {
   text-decoration: none;
 }
+.list {
+  list-style: none;
+}
+
 .Main-container {
   display: flex;
   flex-direction: row-reverse;
